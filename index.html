@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Tools</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="#convert-to-uppercase">CONVERT TO UPPERCASE</a></li>
+                <li><a href="#convert-to-lowercase">CONVERT TO LOWERCASE</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+    <section id="convert-to-uppercase" class="tool-section">
+        <h1>CONVERT TO UPPERCASE</h1>
+        <form class="input-form" id="uppercase-form">
+
+            <label for="uppercase-input">Enter a string</label>
+            <input required type="text" id="uppercase-input" class="string">
+            <button type="submit">GO</button>
+        </form>
+        <div class="output-section" id="uppercase-output-box">
+            <h2>Result:</h2>
+            <p id="uppercase-result"></p>
+        </div>
+    </section>
+
+    <section id="convert-to-lowercase" class="tool-section">
+        <h1>CONVERT TO LOWERCASE</h1>
+        <form class="input-form" id="lowercase-form">
+
+            <label for="lowercase-input">Enter a string</label>
+            <input required type="text" id="lowercase-input" class="string">
+            <button type="submit">GO</button>
+        </form>
+        <div class="output-section" id="lowercase-output-box">
+            <h2>Result:</h2>
+            <p id="lowercase-result"></p>
+        </div>
+    </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
