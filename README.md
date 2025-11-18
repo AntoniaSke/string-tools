@@ -2,7 +2,7 @@
 Μικρή web εφαρμογή που παρέχει εργαλεία μετατροπής κειμένου, όπως **Convert to UPPERCASE** και **Convert to lowercase**, μέσα από ένα απλό sidebar menu.
 
 ## 🌐 Demo (GitHub Pages)
-🔗 *[Προσθήκη link όταν ενεργοποιήσεις το GitHub Pages]*
+🔗 (https://antoniaske.github.io/string-tools/)
 
 ---
 
